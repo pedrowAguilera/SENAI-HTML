@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(217.13deg, #E9EAA4 26.13%, rgba(45, 145, 36, 0.42) 84.84%)
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    width: 200px;
+    height: 140px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #1B5324;
+    font-weight: 400;
+    font-size: 25px;
+    border-color: #62a876;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #8fc99f2f;
+}
+
+.conteudo-principal-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+    border-top: 0.6px solid #5ba133;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #1B5324;
+    gap: 32px;
+}
+
+.produtos1a3 {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.produtos4a6 {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.produto1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B5324;
+}
+.produto1-imagem{
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.produto2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B5324;
+}
+.produto2-imagem{
+    width: auto;
+    height: 500px;
+}
+
+.produto3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B5324;
+}
+.produto3-imagem{
+    width: auto;
+    height: 500px;
+}
+
+.produto4 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B5324;
+}
+.produto4-imagem{
+    width: auto;
+    height: 500px;
+}
+
+.produto5 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B5324;
+}
+.produto5-imagem{
+    width: auto;
+    height: 500px;
+}
+
+.produto6 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B5324;
+}
+.produto6-imagem{
+    width: auto;
+    height: 500px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.6px solid #5ba133;
+}
+.rodape-imagem {
+    height: 82px;
+    display: block;
+    margin: 0 auto;
+}

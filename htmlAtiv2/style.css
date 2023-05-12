@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(217.13deg, #E9EAA4 26.13%, rgba(45, 145, 36, 0.42) 84.84%)
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    width: 200px;
+    height: 140px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #1B5324;
+    font-weight: 400;
+    font-size: 25px;
+    border-color: #62a876;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #8fc99f2f;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.6px solid #5ba133;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #1B5324;
+}
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1B5324;
+}
+.conteudo-principal-imagem {
+    padding: 27px 5px;
+    height: 420px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.6px solid #5ba133;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1B5324;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1B5324;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.6px solid #5ba133;
+}
+.rodape-imagem {
+    height: 82px;
+    display: block;
+    margin: 0 auto;
+}

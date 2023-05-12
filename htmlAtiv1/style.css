@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.Logo img{
+    width: 1000px;
+    height: 500px; 
+}   
+.Logo{
+    text-align: center;
+}
+
+.Slogan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 80, 255);
+    border-color: rgb(255, 255, 255);
+    border-style: dashed;
+    padding: 0px 100px;
+}
+
+.cursos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.balé {
+    text-align: center;
+}
+.balé a{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(223, 80, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: #9c00bf;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 60px 3px 60px;
+}
+
+.balé p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.balé img{
+    width: 450px;
+    height: 400px;
+}
+
+.DancaContemporanea{
+    text-align: center;
+}
+.DancaContemporanea a{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(223, 80, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: #9c00bf;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 60px 3px 60px;
+}
+.DancaContemporanea p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.valsa{
+    text-align: center;
+}
+.valsa a{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(223, 80, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: #9c00bf;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 60px 3px 60px;
+}
+.valsa p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sapateado{
+    text-align: center;
+}
+.sapateado a{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(223, 80, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: #9c00bf;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 60px 3px 60px;
+}
+.sapateado img{
+    width: 800px;
+    height: 470px;
+}
+.sapateado p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista a{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(223, 80, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: #9c00bf;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 60px 3px 60px;
+}
+.lista li{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

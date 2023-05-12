@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #f3e5d9;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid #a94bcf;
+}
+.cabecalho-imagem{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-imagem {
+    width: auto;
+    height: 200px;
+}
+
+.conteudo-titulo {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+    padding: 24px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid #000000;
+}
+
+.casamento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f3e5d9;
+    padding: 24px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid #000000;
+}
+.casamento img{
+    width: 300px;
+    border-radius: 5px;
+}
+.casamento2 {
+    width: auto;
+    height: 500px;
+}
+
+
+.festa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f3e5d9;
+    padding: 34px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid #000000;
+}
+.festa img{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.formatura {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f3e5d9;
+}
+.formatura img{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.casamento-titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ecd179;
+    background-color: #f3e5d9;
+    border: #000000;
+    border-style: solid;
+    margin: 0px 500px 0px 500px;
+
+}
+.festa-titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #6d0098;
+    background-color: #f3e5d9;
+    border: #000000;
+    border-style: solid;
+    margin: 20px 400px 20px 400px;
+}
+.formatura-titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #12861d;
+    background-color: #f3e5d9;
+    border: #000000;
+    border-style: solid;
+    margin: 0px 570px 0px 570px;
+}
+.rodape {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
